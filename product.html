@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+
+    img {
+      max-width: 600px;   /* Imagen más grande (antes 400px) */
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    .buy-section {
+      display: grid;
+      place-items: center;   /* Centra el botón en el grid */
+    }
+
+    .buy-btn {
+      padding: 14px 30px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      background: #ff0000;   /* Rojo más vivo */
+      color: white;
+      cursor: pointer;
+      font-family: 'Courier New', monospace; /* Cambia la fuente si quieres */
+      transition: background 0.2s ease-in-out;
+    }
+
+    .buy-btn:hover {
+      background: #cc0000;   /* Rojo más oscuro al pasar el mouse */
+    }
+
+    a {
+      text-decoration: none;
+      color: #0b71ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Shampoo 20in1</h1>
+
+  <!-- Imagen PNG -->
+  <img src="producto.png" alt="My product">
+
+  <!-- Botón Buy Now en grid -->
+  <div class="buy-section">
+    <button class="buy-btn">BUY NOW</button>
+  </div>
+
+  <!-- Volver a la galería -->
+  <p><a href="index.html">← Back to Gallery</a></p>
+</body>
+</html>
